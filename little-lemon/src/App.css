@@ -1,3 +1,5 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,204 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Footer.css */
+
+/* General Footer Styles */
+footer {
+  background-color: #f4f4f4; /* Light background color for the footer */
+  padding: 2rem 1rem; /* Padding for the footer */
+}
+
+.footer-content {
+  display: flex; /* Flexbox for layout */
+  align-items: flex-start; /* Align items to the start */
+  justify-content: space-between; /* Space out the sections */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+/* Logo Styles */
+.footer-content .logo {
+  margin-right: 2rem; /* Space between logo and next section */
+}
+
+.footer-content .logo img {
+  max-width: 150px; /* Adjust based on your logo size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Site Map Styles */
+footer .site-map {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+footer .site-map h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+footer .site-map ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+}
+
+footer .site-map ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer .site-map ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Dark text color */
+  font-size: 1rem;
+}
+
+footer .site-map ul li a:hover {
+  color: #555; /* Darker color on hover */
+}
+
+/* Contact Styles */
+footer .contact {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+footer .contact h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+footer .contact p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+/* Social Media Styles */
+footer .social-media {
+  flex: 1;
+}
+
+footer .social-media h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+footer .social-media ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+}
+
+footer .social-media ul li {
+  display: inline; /* Inline list items */
+  margin-right: 1rem;
+}
+
+footer .social-media ul li a {
+  color: #9C9A6A; /* Sage Green */
+  font-size: 1.5rem; /* Size of the icons */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+footer .social-media ul li a:hover {
+  color: #BCC1A1; /* Light Sage Green on hover */
+}
+
+footer .social-media ul li a:active {
+  color: #7A7D4E; /* Dark Sage Green when active */
+}
+
+/* Additional styles if needed */
+footer a {
+  text-decoration: none; /* Remove underline for all links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+/* Header Styles */
+header {
+  background-color: #fff; /* Set background color for header */
+  padding: 1rem; /* Padding around header content */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+header .logo {
+  max-width: 200px; /* Limit the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  header .logo {
+    max-width: 150px; /* Adjust logo size for smaller screens */
+  }
+}
+
+/* Nav Styles */
+nav {
+  background-color: #333; /* Dark background for the navigation */
+  padding: 1rem; /* Padding around the navigation */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points from list */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap */
+}
+
+nav ul li {
+  margin: 0 1rem; /* Space out the list items */
+}
+
+nav ul li a {
+  color: #fff; /* White text color for the links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1rem; /* Font size for the links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+  color: #f0f0f0; /* Light color on hover */
+}
+
+nav ul li a:active {
+  color: #ddd; /* Slightly darker color when active */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Stack the items vertically on small screens */
+    align-items: center; /* Center items horizontally */
+  }
+
+  nav ul li {
+    margin: 0.5rem 0; /* Space out items vertically */
+  }
+
+  nav ul li a {
+    font-size: 1.2rem; /* Increase font size for better readability */
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 0.5rem; /* Reduce padding on very small screens */
+  }
+
+  nav ul {
+    font-size: 1.1rem; /* Slightly larger font size on very small screens */
+  }
+
+  nav ul li {
+    margin: 0.3rem 0; /* Reduce margin between items */
+  }
+}
+

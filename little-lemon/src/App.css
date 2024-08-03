@@ -239,3 +239,493 @@ nav ul li a:active {
   }
 }
 
+#call-to-action {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+#call-to-action h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#call-to-action p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+#call-to-action button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: rgba(53, 77, 63, 0.866);
+  border: none;
+  cursor: pointer;
+}
+
+#call-to-action button:hover {
+  background-color: rgba(53, 77, 63, 0.666);
+}
+
+#specials {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+#specials h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.special {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.special img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.special p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+#customers-say {
+  text-align: center;
+  padding: 50px;
+  background-color: #e8e8e8;
+}
+
+#customers-say h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.testimonial p {
+  margin-top: 10px;
+  font-size: 1em;
+  font-style: italic;
+}
+
+#chicago {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+#chicago h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#chicago p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#chicago img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.booking-page {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.booking-page h2 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+.booking-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-page label {
+  margin: 10px 0 5px;
+  font-size: 1em;
+  color: #7f8c8d;
+}
+
+.booking-page input {
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #ecf0f1;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: border 0.3s;
+}
+
+.booking-page input:focus {
+  border: 1px solid #3498db;
+  outline: none;
+}
+
+.booking-page button {
+  padding: 12px 20px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.booking-page button:hover {
+  background-color: #2980b9;
+}
+
+#customers-say {
+  text-align: center;
+  padding: 50px;
+  background-color: #e8e8e8;
+}
+
+#customers-say h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  max-width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial h4 {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.stars span {
+  color: #ffb400;
+  font-size: 1.5em;
+  margin: 0 2px;
+}
+
+#specials {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+#specials h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.special {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  max-width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.special img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.special p {
+  font-size: 1em;
+  color: #555;
+}
+
+#chicago {
+  padding: 50px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+#chicago .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#chicago .text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#chicago .text h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+#chicago .text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+#chicago .image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#chicago .image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  #chicago .content {
+    flex-direction: row;
+    /* Ensure text and image are side by side */
+  }
+
+  #chicago .text {
+    text-align: left;
+    margin-right: 30px;
+    flex: 1; 
+  }
+
+  #chicago .image {
+    flex: 0 0 40%; 
+    max-width: 40%; 
+  }
+}
+
+
+.booking-form {
+  display: grid;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.booking-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.booking-form input[type="date"],
+.booking-form input[type="number"],
+.booking-form select,
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.booking-form input[type="date"],
+.booking-form select {
+  font-size: 16px;
+}
+
+.booking-form input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.booking-form input[type="number"]::-webkit-inner-spin-button,
+.booking-form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.booking-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.booking-form button:hover {
+  background-color: #218838;
+}
+
+.booking-form-container {
+  position: relative;
+}
+
+.success-popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.success-popup button {
+  background-color: #155724;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.success-popup button:hover {
+  background-color: #136c43;
+}
+
+.booking-form {
+  display: grid;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.booking-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.booking-form input[type="date"],
+.booking-form input[type="number"],
+.booking-form select,
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.booking-form input[type="date"],
+.booking-form select {
+  font-size: 16px;
+}
+
+.booking-form input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.booking-form input[type="number"]::-webkit-inner-spin-button,
+.booking-form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.booking-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.booking-form button:hover {
+  background-color: #218838;
+}
+
+.booking-form-container {
+  position: relative;
+}
+
+.success-popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.success-popup button {
+  background-color: #155724;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.success-popup button:hover {
+  background-color: #136c43;
+}
